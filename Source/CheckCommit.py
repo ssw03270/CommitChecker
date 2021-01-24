@@ -3,7 +3,7 @@ import datetime
 
 def getCommit():
     g = Github("ID", "PASSWORD")
-	g = Github("tocken")
+	g = Github("TOKEN")
 
 	userList = ["bluehyena", "ch4n3-yoon", "ssw03270", "mmindoong"]
 	commitData = []
