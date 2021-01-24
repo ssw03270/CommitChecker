@@ -1,4 +1,5 @@
 import time, win32con, win32api, win32gui
+import os
 
 # kakaotalk chat room title
 roomTitle = "RommTitle"
@@ -27,4 +28,8 @@ def enterRoom():
 	win32api.SendMessage(hwndEdit02_01, win32con.WM_SETTEXT, 0, roomTitle)
 	time.sleep(1)  # 안정성 위해 필요
 	sendReturn(hwndEdit02_01)
+	time.sleep(1)
+
+def openKakao():
+    os.system(r'"C:\Program Files (x86)\Kakao\KakaoTalk\KakaoTalk.exe"')
 	time.sleep(1)
