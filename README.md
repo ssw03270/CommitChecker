@@ -8,4 +8,5 @@
 * Lastly, build and run this project(Main.py).
 
 > Also fix ID, PASSWORD and TOKEN in CheckCommit.py
+
 It will check the commit at midnight.
